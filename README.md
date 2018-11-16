@@ -15,6 +15,6 @@
 - src/actions action代码
 - src/reducer reducer示例代码
 - src/service service代码，提供一个模拟异步的函数
-- App.js 主页面组件
-- index.js 入口文件
-- store.js redux store 创建文件
+- src/App.js 主页面组件
+- src/index.js 入口文件
+- src/store.js redux store 创建文件
