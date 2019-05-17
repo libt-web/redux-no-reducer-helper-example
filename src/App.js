@@ -11,7 +11,7 @@ class App extends Component {
         const { addCount, getCountFromServer, resetCount, resetCountAndLoadServer } = this.props.actions;
         return (
             <div style={{ padding: 20 }}>
-                <p>Count:{example.loading ? 'loading...' : count}</p>
+                <p>{example.prefix}Count:{example.loading ? 'loading...' : count}</p>
                 <button onClick={addCount}>add 1</button>
                 <button onClick={getCountFromServer}>get count from server</button>
                 <button onClick={resetCount}>reset count</button>
